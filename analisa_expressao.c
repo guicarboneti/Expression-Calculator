@@ -13,8 +13,8 @@ int main() {
     scanf("%s", string);
     arvore = montaArvore(string, &i);
 
-    int resultado; /* = resultado da função */
-    /* printf("%d", resultado); */
+    float resultado = percurso(arvore);
+    printf("%g\n", resultado);
 
     return 0;
 }
